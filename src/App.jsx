@@ -1,9 +1,12 @@
 import "./App.css";
+import Container from "./components/container";
 
 function App() {
   return (
     <>
-      <h1 className="font-Poppins text-myPurple">hello</h1>
+      <div className="">
+        <Container />
+      </div>
     </>
   );
 }
